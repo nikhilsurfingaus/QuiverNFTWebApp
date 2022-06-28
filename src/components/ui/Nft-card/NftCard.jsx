@@ -6,7 +6,7 @@ import "./nft-card.css";
 import Modal from "../Modal/Modal";
 
 const NftCard = (props) => {
-  const { title, id, currentBid, creatorImg, imgUrl, creator } = props.item;
+  const { title, id, currentBid, imgUrl, creator } = props.item;
 
   const [showModal, setShowModal] = useState(false);
 
@@ -22,18 +22,15 @@ const NftCard = (props) => {
         </h5>
 
         <div className="creator__info-wrapper d-flex gap-3">
-          <div className="creator__img">
-            <img src={creatorImg} alt="" className="w-100" />
-          </div>
 
           <div className="creator__info w-100 d-flex align-items-center justify-content-between">
             <div>
-              <h6>Created By</h6>
+              <h6>Surfer</h6>
               <p>{creator}</p>
             </div>
 
             <div>
-              <h6>Current Bid</h6>
+              <h6>Current Price</h6>
               <p>{currentBid} ETH</p>
             </div>
           </div>
@@ -50,7 +47,15 @@ const NftCard = (props) => {
           {showModal && <Modal setShowModal={setShowModal} />}
 
           <span className="history__link">
-            <Link to="#">View History</Link>
+              <Link to={`/market/${id}`}>
+              <button
+                className="bid__btn d-flex align-items-center gap-1"
+              >
+                <i class="ri-file-list-line"></i> Details
+              </button>
+              </Link>
+
+
           </span>
         </div>
       </div>

@@ -24,6 +24,11 @@
     color: rgba(255, 255, 255, 0.772);
 }
 
+.logo img {
+    width: 60px;
+    height: 50px;
+}
+
 .newsletter {
     width: 100%;
     border-radius: 50px;

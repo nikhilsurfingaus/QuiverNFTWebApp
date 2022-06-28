@@ -9,9 +9,14 @@
     background: #0b4a91;
 }
 
+.logo img {
+    width: 60px;
+    height: 50px;
+}
+
 .header__shrink {
     background: #0b4a91;
-    box-shadow: 2px 2px 4px -2px #e250e5;
+    box-shadow: 2px 2px 4px -2px #1b99bc;
 }
 
 .navigation {
@@ -108,5 +113,13 @@
     }
     .btn a {
         font-size: 0.7rem !important;
+    }
+    .logo h2 {
+        visibility: hidden;
+    }
+    .logo img {
+        visibility: visible;
+        width: 60px;
+        height: 50px;
     }
 }

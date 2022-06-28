@@ -4,6 +4,8 @@ import { Container } from "reactstrap";
 
 import { NavLink, Link } from "react-router-dom";
 
+import logo from "../../assets/images/QuiverCoin.png";
+
 
 const NAV__LINKS = [
   {
@@ -63,7 +65,9 @@ const Header = () => {
           <div className="logo">
             <h2 className=" d-flex gap-2 align-items-center ">
               <span>
-                <i class="ri-blaze-fill"></i>
+                <Link to="/home"> 
+                  <img src={logo} alt='logo' className="logo"/>
+                </Link>
               </span>
               Quiver
             </h2>

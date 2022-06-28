@@ -15,7 +15,6 @@ const Market = () => {
 
   const handleCategory = () => {};
 
-  const handleItems = () => {};
 
   // ====== SORTING DATA BY HIGH, MID, LOW RATE =========
   const handleSort = (e) => {
@@ -57,21 +56,12 @@ const Market = () => {
                   <div className="all__category__filter">
                     <select onChange={handleCategory}>
                       <option>All Categories</option>
-                      <option value="art">Art</option>
-                      <option value="music">Music</option>
-                      <option value="domain-name">Domain Name</option>
-                      <option value="virtual-world">Virtual World</option>
-                      <option value="trending-card">Trending Cards</option>
+                      <option value="art">Event Winner</option>
+                      <option value="music">World Champion</option>
+                      <option value="music">Legend</option>
                     </select>
                   </div>
 
-                  <div className="all__items__filter">
-                    <select onChange={handleItems}>
-                      <option>All Items</option>
-                      <option value="single-item">Single Item</option>
-                      <option value="bundle">Bundle</option>
-                    </select>
-                  </div>
                 </div>
 
                 <div className="filter__right">

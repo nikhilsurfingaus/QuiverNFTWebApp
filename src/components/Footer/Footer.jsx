@@ -4,6 +4,8 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css";
 
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/QuiverCoin.png";
+
 
 const MY__ACCOUNT = [
   {
@@ -71,7 +73,7 @@ const Footer = () => {
             <div className="logo">
               <h2 className=" d-flex gap-2 align-items-center ">
                 <span>
-                  <i class="ri-blaze-fill"></i>
+                <img src={logo} alt='logo' className="logo"/>
                 </span>
                 Quiver
               </h2>

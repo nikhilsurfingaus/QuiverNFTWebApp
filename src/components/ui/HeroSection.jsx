@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "./hero-section.css";
+import Tilt from "react-parallax-tilt";
+
 
 import QCoin from "../../assets/images/QuiverCoin.png";
 
@@ -26,11 +28,11 @@ const HeroSection = () => {
               <div className="hero__btns d-flex align-items-center gap-4">
                 <button className=" explore__btn d-flex align-items-center gap-2">
                   <i class="ri-rocket-line"></i>{" "}
-                  <Link to="/market">Explore</Link>
+                  <Link to="/market">Explore NFT Collection</Link>
                 </button>
                 <button className=" create__btn d-flex align-items-center gap-2">
-                  <i class="ri-ball-pen-line"></i>
-                  <Link to="/create">Create</Link>
+                  <i class="ri-eye-line"></i>
+                  <Link to="/create">Quiver Visionary</Link>
                 </button>
               </div>
             </div>
@@ -38,7 +40,9 @@ const HeroSection = () => {
 
           <Col lg="6" md="6">
             <div className="hero__img">
-              <img src={QCoin} alt="" className="w-100" />
+              <Tilt perspective={500} glareEnable={true} glareMaxOpacity={0}  glareColor={"fff"} scale={1.1} gyroscope={true}>
+                <img src={QCoin} alt="" className="w-100" />
+              </Tilt>
             </div>
           </Col>
         </Row>

@@ -27,9 +27,9 @@
     outline: none;
     padding: 7px 25px !important;
     border-radius: 50px !important;
-    border: 1px solid #5142fc !important;
+    border: 1px solid #1b99bc !important;
     font-size: 0.9rem;
-    background: transparent;
+    background: #0b4a91;
 }
 
 .explore__btn i,

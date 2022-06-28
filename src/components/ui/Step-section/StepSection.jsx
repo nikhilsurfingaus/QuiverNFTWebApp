@@ -6,27 +6,27 @@ import "./step-section.css";
 
 const STEP__DATA = [
   {
-    title: "Setup your wallet",
+    title: "Build Your NFT Quiver",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
-    icon: "ri-wallet-line",
+    icon: "ri-tools-line",
   },
 
   {
-    title: "Create your collection",
+    title: "Follow  Our Roadmap",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
-    icon: "ri-layout-masonry-line",
+    icon: "ri-treasure-map-line",
   },
 
   {
-    title: "Add your NFTs",
+    title: "Quiver Community",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
-    icon: "ri-image-line",
+    icon: "ri-group-line",
   },
 
   {
-    title: "List them for sale",
+    title: "Etherum Projects",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum ",
-    icon: "ri-list-check",
+    icon: "ri-vip-diamond-line",
   },
 ];
 
@@ -36,7 +36,7 @@ const StepSection = () => {
       <Container>
         <Row>
           <Col lg="12" className="mb-4">
-            <h3 className="step__title">Create and sell your NFTs</h3>
+            <h3 className="step__title">Embrace Quiver</h3>
           </Col>
 
           {STEP__DATA.map((item, index) => (
