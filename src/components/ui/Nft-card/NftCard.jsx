@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
+import Tilt from "react-parallax-tilt";
 
 import "./nft-card.css";
 
-import Modal from "../Modal/Modal";
+
 
 const NftCard = (props) => {
   const { title, id, currentBid, imgUrl, creator } = props.item;
 
-  const [showModal, setShowModal] = useState(false);
 
   return (
+    <Tilt perspective={600} glareEnable={false} glareMaxOpacity={0} scale={1.03} gyroscope={false} tiltMaxAngleX={0} tiltMaxAngleY={7}>
     <div className="single__nft__card">
       <div className="nft__img">
         <img src={imgUrl} alt="" className="w-100" />
@@ -18,7 +19,7 @@ const NftCard = (props) => {
 
       <div className="nft__content">
         <h5 className="nft__title">
-          <Link to={`/market/${id}`}>{title}</Link>
+          {title}
         </h5>
 
         <div className="creator__info-wrapper d-flex gap-3">
@@ -39,12 +40,9 @@ const NftCard = (props) => {
         <div className=" mt-3 d-flex align-items-center justify-content-between">
           <button
             className="bid__btn d-flex align-items-center gap-1"
-            onClick={() => setShowModal(true)}
           >
             <i class="ri-shopping-bag-line"></i> Place Bid
           </button>
-
-          {showModal && <Modal setShowModal={setShowModal} />}
 
           <span className="history__link">
               <Link to={`/market/${id}`}>
@@ -60,6 +58,7 @@ const NftCard = (props) => {
         </div>
       </div>
     </div>
+    </Tilt>
   );
 };
 

@@ -45,6 +45,17 @@ const NftDetails = () => {
                     </span>
                   </div>
 
+
+                </div>
+
+                <div className="nft__creator d-flex gap-3 align-items-center">
+  
+                  <div className="creator__detail">
+                    <p>Surfer</p>
+                    <h6>{singleNft.creator}</h6>
+                    
+                  </div>
+
                   <div className=" d-flex align-items-center gap-2 single__nft-more">
                     <span>
                       <i class="ri-send-plane-line"></i>
@@ -53,17 +64,7 @@ const NftDetails = () => {
                       <i class="ri-more-2-line"></i>
                     </span>
                   </div>
-                </div>
-
-                <div className="nft__creator d-flex gap-3 align-items-center">
-                  <div className="creator__img">
-                    <img src={singleNft.creatorImg} alt="" className="w-100" />
-                  </div>
-
-                  <div className="creator__detail">
-                    <p>Created By</p>
-                    <h6>{singleNft.creator}</h6>
-                  </div>
+                  
                 </div>
 
                 <p className="my-4">{singleNft.desc}</p>

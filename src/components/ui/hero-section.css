@@ -57,6 +57,21 @@
     border-radius: 7px;
 }
 
+.explore__btn:hover,
+.create__btn:hover {
+    background: #fff !important;
+}
+
+.explore__btn:hover a,
+.create__btn:hover a {
+    color: #010004 !important;
+}
+
+.explore__btn:hover i,
+.create__btn:hover i {
+    color: #010004 !important;
+}
+
 @media only screen and (max-width: 992px) {
     .hero__img {
         width: 300px;

@@ -29,8 +29,8 @@ const NAV__LINKS = [
     url: "/project",
   },
   {
-    display: "About",
-    url: "/about",
+    display: "Trading",
+    url: "/trading",
   },
 ];
 

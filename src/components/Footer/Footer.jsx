@@ -78,9 +78,8 @@ const Footer = () => {
                 Quiver
               </h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate, quod repellat! Quis quos dolorum tenetur fuga?
-                Aspernatur rerum quae amet.
+                Quiver calls all ocean lovers and wave chargers to join the Quiver community.
+                Together we can ride towards conquering the bottom and blast the top turns of the crypto wave.
               </p>
             </div>
           </Col>
@@ -153,7 +152,7 @@ const Footer = () => {
           <Col lg="12" className=" mt-4 text-center">
             <p className="copyright">
               {" "}
-              Copyrights 2022, Developed by Muhibur Rahman. @Muhib's Tech Diary
+              Copyrights 2022, Developed by Nikhil Naik. @WaveFlightSimulation
               All Rights Reserved.{" "}
             </p>
           </Col>

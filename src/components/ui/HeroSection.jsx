@@ -35,12 +35,13 @@ const HeroSection = () => {
                   <Link to="/create">Quiver Visionary</Link>
                 </button>
               </div>
+              
             </div>
           </Col>
 
           <Col lg="6" md="6">
             <div className="hero__img">
-              <Tilt perspective={500} glareEnable={true} glareMaxOpacity={0}  glareColor={"fff"} scale={1.1} gyroscope={true}>
+              <Tilt perspective={400} glareEnable={true} glareMaxOpacity={0} scale={1.1} gyroscope={true}>
                 <img src={QCoin} alt="" className="w-100" />
               </Tilt>
             </div>

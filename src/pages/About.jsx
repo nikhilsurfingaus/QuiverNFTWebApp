@@ -1,11 +1,11 @@
 
 import CommonSection from "../components/ui/Common-section/CommonSection";
 
-const About = () => {
+const Trading = () => {
  
   return (
     <>
-      <CommonSection title="About" />
+      <CommonSection title="Trading" />
       <section>
       
       </section>
@@ -13,4 +13,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Trading;

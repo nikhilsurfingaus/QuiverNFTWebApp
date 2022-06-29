@@ -9,7 +9,7 @@ import NftDetails from "../pages/NftDetails";
 import Map from "../pages/Map";
 import Chat from "../pages/Chat";
 import Project from "../pages/Projects";
-import About from "../pages/About";
+import Trading from "../pages/About";
 
 const Routers = () => {
   return (
@@ -21,7 +21,7 @@ const Routers = () => {
       <Route path="/chat" element={<Chat />} />
       <Route path="/market/:id" element={<NftDetails />} />
       <Route path="/project" element={<Project />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/trading" element={<Trading />} />
     </Routes>
   );
 };

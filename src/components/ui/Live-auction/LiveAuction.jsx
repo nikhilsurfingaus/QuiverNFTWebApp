@@ -15,9 +15,9 @@ const LiveAuction = () => {
           <Col lg="12" className="mb-5">
             <div className="live__auction__top d-flex align-items-center justify-content-between ">
               <h3>Special Editions</h3>
-              <span>
-                <Link to="/market">Explore more</Link>
-              </span>
+                <span>
+                  <Link to="/market" >Explore more <i class="ri-arrow-right-s-line"></i></Link>
+                </span>
             </div>
           </Col>
 
