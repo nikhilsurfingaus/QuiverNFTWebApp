@@ -41,6 +41,9 @@
 .nav__item a:hover {
     color: #0c264f;
     transition: 300ms;
+    padding-bottom: 8px;
+    border-bottom: 4px solid #1b99bc;
+    transition: all 0.2s ease-out;
 }
 
 .active {
@@ -106,6 +109,10 @@
         z-index: 333333;
         flex-direction: column;
         padding-top: 40px;
+        animation-name: test;
+        animation-duration: 0.5s;
+        -webkit-animation-name: test;
+        -webkit-animation-duration: 0.5;
     }
     .mobile__menu {
         display: block;
@@ -130,5 +137,13 @@
     }
     .nav__item a {
         font-size: 18px;
+    }
+    @keyframes test {
+        from {
+            right: -100%;
+        }
+        to {
+            right: 0%;
+        }
     }
 }
