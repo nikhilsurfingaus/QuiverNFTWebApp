@@ -100,7 +100,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        width: 250px;
+        width: 220px;
         height: 100%;
         background: #343444;
         z-index: 333333;
@@ -109,6 +109,10 @@
     }
     .mobile__menu {
         display: block;
+    }
+    .mobile__menu i {
+        font-size: 30px;
+        cursor: pointer;
     }
     .btn {
         padding: 4px 25px !important;
@@ -123,5 +127,8 @@
         visibility: visible;
         width: 60px;
         height: 50px;
+    }
+    .nav__item a {
+        font-size: 18px;
     }
 }

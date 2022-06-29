@@ -72,6 +72,13 @@
     color: #010004 !important;
 }
 
+.hero__img.animate__animated.animate__rotateIn {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+}
+
 @media only screen and (max-width: 992px) {
     .hero__img {
         width: 300px;

@@ -20,7 +20,7 @@ const NftDetails = () => {
     <>
       <CommonSection title={singleNft.title} />
 
-      <section>
+      <section className="animate__animated animate__slideInUp">
         <Container>
           <Row>
             <Col lg="6" md="6" sm="6">
