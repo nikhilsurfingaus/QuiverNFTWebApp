@@ -3,6 +3,13 @@
     color: #fff;
 }
 
+.logo p {
+    font-size: 12px !important;
+    line-height: 23px !important;
+    text-align: justify;
+    max-width: 250px;
+}
+
 .footer {
     padding-bottom: 30px;
     background: #0b4a91;
@@ -53,6 +60,7 @@
     font-size: 1.2rem;
     font-weight: 400;
     transition: 0.3s;
+    margin-left: 17px;
 }
 
 .social__links span a:hover {

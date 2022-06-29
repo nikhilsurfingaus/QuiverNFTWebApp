@@ -3,64 +3,79 @@ import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css";
 
-import { Link } from "react-router-dom";
 import logo from "../../assets/images/QuiverCoin.png";
 
 
 const MY__ACCOUNT = [
   {
-    display: "Author Profile",
-    url: "/seller-profile",
+    display: "Market",
+    url: "/market",
+    target: "_self",
   },
   {
-    display: "Create Item",
-    url: "/create",
+    display: "Mintable Store",
+    url: "https://mintable.app/u/nikhilsurfingaus",
+    target: "_blank",
   },
   {
     display: "Collection",
     url: "/market",
-  },
-  {
-    display: "Edit Profile",
-    url: "/edit-profile",
+    target: "_blank",
   },
 ];
 
 const RESOURCES = [
   {
-    display: "Help Center",
-    url: "#",
+    display: "Road Map",
+    url: "/map",
+    target: "_self",
   },
   {
-    display: "Partner",
-    url: "#",
+    display: "Live Chat",
+    url: "/chat",
+    target: "_self",
   },
   {
-    display: "Community",
-    url: "#",
-  },
-  {
-    display: "Activity",
-    url: "#",
+    display: "Projects",
+    url: "/project",
+    target: "_self",
   },
 ];
 
 const COMPANY = [
   {
-    display: "About",
-    url: "#",
+    display: "Ethereum",
+    url: "https://ethereum.org/en/",
+    target: "_blank",
   },
   {
-    display: "Career",
-    url: "#",
+    display: "WaveFlightSimulations",
+    url: "https://www.youtube.com/c/WaveFlightSimulations",
+    target: "_blank",
   },
   {
-    display: "Ranking",
-    url: "#",
+    display: "Binance",
+    url: "/trading",
+    target: "_self",
+  },
+];
+
+const SOCIAL = [
+  {
+    display: "ri-linkedin-box-line",
+    url: "https://www.linkedin.com/in/nikhil-naik-76724b133",
   },
   {
-    display: "Contact Us",
-    url: "/contact",
+    display: "ri-instagram-line",
+    url: "https://www.instagram.com/pixelsurfboardnft/",
+  },
+  {
+    display: "ri-github-fill",
+    url: "https://github.com/nikhilsurfingaus",
+  },
+  {
+    display: "ri-youtube-fill",
+    url: "https://www.youtube.com/c/WaveFlightSimulations",
   },
 ];
 
@@ -85,68 +100,49 @@ const Footer = () => {
           </Col>
 
           <Col lg="2" md="3" sm="6" className="mb-4">
-            <h5>My Account</h5>
+            <h5>NFTs</h5>
             <ListGroup className="list__group">
               {MY__ACCOUNT.map((item, index) => (
                 <ListGroupItem key={index} className="list__item">
-                  <Link to={item.url}> {item.display} </Link>
+                  <a target={item.target} rel="noopener noreferrer" href={item.url}>{item.display}</a>
                 </ListGroupItem>
               ))}
             </ListGroup>
           </Col>
 
           <Col lg="2" md="3" sm="6" className="mb-4">
-            <h5>Resources</h5>
+            <h5>Blockchain</h5>
             <ListGroup className="list__group">
               {RESOURCES.map((item, index) => (
                 <ListGroupItem key={index} className="list__item">
-                  <Link to={item.url}> {item.display} </Link>
+                  <a target="_self" rel="noopener noreferrer" href={item.url}>{item.display}</a>
                 </ListGroupItem>
               ))}
             </ListGroup>
           </Col>
 
           <Col lg="2" md="3" sm="6" className="mb-4">
-            <h5>Company</h5>
+            <h5>Partners</h5>
             <ListGroup className="list__group">
               {COMPANY.map((item, index) => (
                 <ListGroupItem key={index} className="list__item">
-                  <Link to={item.url}> {item.display} </Link>
+                  <a target={item.target} rel="noopener noreferrer" href={item.url}>{item.display}</a>
                 </ListGroupItem>
               ))}
             </ListGroup>
           </Col>
 
           <Col lg="3" md="6" sm="6" className="mb-4">
-            <h5>Newsletter</h5>
-            <input type="text" className="newsletter" placeholder="Email" />
+            <h5>Socials</h5>
+            {SOCIAL.map((item, index) => (
+
             <div className="social__links d-flex gap-3 align-items-center ">
               <span>
-                <Link to="#">
-                  <i class="ri-facebook-line"></i>
-                </Link>
-              </span>
-              <span>
-                <Link to="#">
-                  <i class="ri-instagram-line"></i>
-                </Link>
-              </span>
-              <span>
-                <Link to="#">
-                  <i class="ri-twitter-line"></i>
-                </Link>
-              </span>
-              <span>
-                <Link to="#">
-                  <i class="ri-telegram-line"></i>
-                </Link>
-              </span>
-              <span>
-                <Link to="#">
-                  <i class="ri-discord-line"></i>
-                </Link>
+                <a target="_blank" rel="noopener noreferrer" href={item.url}> <i class={item.display}></i></a>
               </span>
             </div>
+            ))}
+
           </Col>
 
           <Col lg="12" className=" mt-4 text-center">

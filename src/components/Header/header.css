@@ -35,10 +35,12 @@
 .nav__item a {
     text-decoration: none;
     color: #fff;
+    font-weight: 500;
 }
 
 .nav__item a:hover {
-    color: #fff;
+    color: #0c264f;
+    transition: 300ms;
 }
 
 .active {
@@ -56,7 +58,7 @@
 
 .nav__right .btn {
     padding: 7px 25px;
-    border: 1px solid #5142fc;
+    border: 1px solid #1b99bc;
     border-radius: 50px;
 }
 
