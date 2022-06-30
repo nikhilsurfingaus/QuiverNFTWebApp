@@ -88,7 +88,7 @@ const Footer = () => {
             <div className="logo">
               <h2 className=" d-flex gap-2 align-items-center ">
                 <span>
-                <img src={logo} alt='logo' className="logo"/>
+                <img src={logo} alt='logo' className="fot_logo"/>
                 </span>
                 Quiver
               </h2>

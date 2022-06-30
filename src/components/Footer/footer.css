@@ -4,7 +4,7 @@
 }
 
 .logo p {
-    font-size: 12px !important;
+    font-size: 13px !important;
     line-height: 23px !important;
     text-align: justify;
     max-width: 250px;
@@ -29,7 +29,7 @@
 }
 
 .list__item a:hover {
-    color: rgba(255, 255, 255, 0.772);
+    color: #0c264f;
 }
 
 .logo img {
@@ -64,9 +64,64 @@
 }
 
 .social__links span a:hover {
-    color: #5089e5;
+    color: #0c264f;
 }
 
 .copyright {
     font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .footer .logo p {
+        width: 80%;
+        margin: auto;
+        max-width: 267px;
+        text-align: center;
+    }
+    .footer .logo img {
+        width: 100px;
+        height: 80px;
+    }
+    .footer .logo h2 {
+        width: 25%;
+        margin: auto;
+        text-align: center !important;
+        padding-bottom: 15px;
+    }
+    .footer h5 {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .footer li {
+        width: 55% !important;
+        margin: auto !important;
+        text-align: center !important;
+        padding-right: 0px !important;
+    }
+    .footer .social__links {
+        width: 15% !important;
+        margin: auto !important;
+        text-align: center !important;
+    }
+    .social__links span a {
+        font-size: 1.4rem;
+    }
+    .copyright {
+        width: 100%;
+        margin: auto;
+        border-top: #0c264f solid 1.5px;
+        padding-top: 20px;
+    }
+    .footer .mb-4 .logo {
+        border-bottom: #0c264f solid 1.5px;
+        padding-bottom: 20px;
+    }
+    .footer .mb-4 .list__group {
+        border-bottom: #0c264f solid 1.5px;
+        padding-bottom: 20px;
+    }
 }
