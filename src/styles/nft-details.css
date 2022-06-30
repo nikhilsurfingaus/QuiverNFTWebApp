@@ -83,9 +83,13 @@
     color: #010004;
 }
 
+.detail {
+    margin-top: 100px !important;
+}
+
 @media only screen and (max-width: 992px) {
     .single__nft__content h2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .single__nft__content p {
         font-size: 0.8rem;
@@ -96,6 +100,11 @@
     }
     .singleNft-btn a {
         font-size: 0.7rem;
+    }
+    .detail {
+        width: 90%;
+        margin: auto;
+        margin-top: 80px !important;
     }
 }
 

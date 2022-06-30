@@ -106,8 +106,21 @@
 
 @media only screen and (max-width: 576px) {
     .hero__img {
-        width: 100%;
+        width: 80%;
         margin: auto;
         margin-top: 50px;
+    }
+    .hero__section {
+        margin-top: 100px !important;
+        width: 80%;
+        margin: auto;
+    }
+    .create__btn,
+    .explore__btn {
+        padding: 4px 25px !important;
+    }
+    .create__btn a,
+    .explore__btn a {
+        font-size: 0.6rem;
     }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 
-import CommonSection from "../components/ui/Common-section/CommonSection";
 import { useParams } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { NFT__DATA } from "../assets/data/data";
@@ -18,9 +17,8 @@ const NftDetails = () => {
 
   return (
     <>
-      <CommonSection title={singleNft.title} />
 
-      <section className="animate__animated animate__slideInUp">
+      <section className="detail animate__animated animate__slideInUp">
         <Container>
           <Row>
             <Col lg="6" md="6" sm="6">

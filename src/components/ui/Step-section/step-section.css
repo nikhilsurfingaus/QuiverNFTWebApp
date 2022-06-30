@@ -33,4 +33,13 @@
         font-size: 0.8rem;
         line-height: 25px;
     }
+    .single__step__item {
+        width: 90%;
+        margin: auto;
+    }
+    .step__title {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
 }
