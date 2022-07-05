@@ -1,0 +1,253 @@
+body {
+    background-color: #282c34;
+}
+
+.live-sec {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.live-sec header {
+    background-color: #0b4a91;
+    height: 8vh;
+    min-height: 50px;
+    color: white;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.live-sec section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: #0c264f;
+    padding: 0 !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.live-sec main {
+    padding: 10px;
+    height: 50vh;
+    margin: 2vh 0 2vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.live-sec main::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+.live-sec main::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+.live-sec main::-webkit-scrollbar-thumb {
+    background: #0b85c3;
+}
+
+form {
+    height: 8vh;
+    bottom: 0;
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    display: flex;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+form button {
+    width: 20%;
+    background-color: #1b99bc;
+    border-bottom-right-radius: 10px;
+}
+
+input {
+    line-height: 1.5;
+    width: 100%;
+    font-size: 1.1rem !important;
+    background: rgb(58, 58, 58);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button {
+    background-color: #282c34;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.sign-out {
+    border: none;
+    outline: none;
+    padding: 5px 22px;
+    background: transparent;
+    border: 1px solid #0c264f !important;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+    background: #1b99bc;
+    display: flex;
+    align-items: center;
+}
+
+.ri-logout-box-line {
+    padding-right: 6px;
+}
+
+.sign-out:hover,
+.sign-in:hover {
+    background: #fff;
+    color: #010004;
+    border: 1px solid #1b99bc !important;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.sign-in {
+    border: none;
+    outline: none;
+    padding: 5px 22px;
+    background: transparent;
+    border: 1px solid #0c264f !important;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+    background: #1b99bc;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.ri-google-fill {
+    padding-right: 6px;
+}
+
+ul,
+li {
+    text-align: left;
+    list-style: none;
+}
+
+.sent p {
+    max-width: 500px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: relative;
+    color: white;
+    text-align: right;
+}
+
+.received p {
+    max-width: 500px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+}
+
+.sent {
+    flex-direction: row-reverse;
+}
+
+.sent p {
+    color: white;
+    background: #1b99bc;
+    align-self: flex-end;
+    font-size: 0.9rem;
+}
+
+.received p {
+    background: #e5e5ea;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px;
+}
+
+.in-info {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .live-sec {
+        max-width: 75%;
+    }
+    .sign-in {
+        font-size: 1.0rem;
+        max-width: 400px;
+    }
+    .in-info p {
+        font-size: 0.9rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    .in-info {
+        margin-top: 10px;
+    }
+    .received p {
+        font-size: 0.8rem;
+        max-width: 200px;
+    }
+    .sent p {
+        font-size: 0.8rem;
+        max-width: 200px;
+    }
+    .ri-send-plane-2-line {
+        font-size: 0.9rem;
+    }
+    input {
+        font-size: 0.9rem !important;
+    }
+    form {
+        height: 7vh;
+    }
+    .sign-out {
+        padding: 3px 18px;
+        font-size: 0.9rem;
+    }
+}

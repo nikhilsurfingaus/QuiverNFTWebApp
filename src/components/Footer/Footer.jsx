@@ -83,7 +83,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row>
+        <Row className="rowie">
           <Col lg="3" md="6" sm="6" className="mb-4">
             <div className="logo">
               <h2 className=" d-flex gap-2 align-items-center ">

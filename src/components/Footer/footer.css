@@ -69,6 +69,11 @@
 
 .copyright {
     font-size: 0.8rem;
+    margin-left: -100px !important;
+}
+
+.rowie {
+    margin-left: 80px !important;
 }
 
 @media only screen and (max-width: 576px) {
@@ -123,5 +128,8 @@
     .footer .mb-4 .list__group {
         border-bottom: #0c264f solid 1.5px;
         padding-bottom: 20px;
+    }
+    .rowie {
+        margin-left: 0px !important;
     }
 }
