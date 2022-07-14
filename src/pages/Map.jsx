@@ -1,5 +1,6 @@
-
 import CommonSection from "../components/ui/Common-section/CommonSection";
+import React from 'react'
+import Timeline from "../components/ui/Time-Line/Timeline";
 
 const Map = () => {
 
@@ -8,7 +9,7 @@ const Map = () => {
     <>
       <CommonSection title="Road Map" />
       <section>
-       
+        <Timeline />
       </section>
     </>
   );

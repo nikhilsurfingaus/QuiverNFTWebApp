@@ -136,9 +136,9 @@ const Footer = () => {
             <h5>Socials</h5>
             {SOCIAL.map((item, index) => (
 
-            <div className="social__links d-flex gap-3 align-items-center ">
+            <div key={index} className="social__links d-flex gap-3 align-items-center ">
               <span>
-                <a target="_blank" rel="noopener noreferrer" href={item.url}> <i class={item.display}></i></a>
+                <a target="_blank" rel="noopener noreferrer" href={item.url}> <i className={item.display}></i></a>
               </span>
             </div>
             ))}

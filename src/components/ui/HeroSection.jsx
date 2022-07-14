@@ -27,11 +27,11 @@ const HeroSection = () => {
 
               <div className="hero__btns d-flex align-items-center gap-4 animate__animated animate__slideInLeft">
                 <button className=" explore__btn d-flex align-items-center gap-2">
-                  <i class="ri-rocket-line"></i>{" "}
+                  <i className="ri-rocket-line"></i>{" "}
                   <Link to="/market">Explore NFT Collection</Link>
                 </button>
                 <button className=" create__btn d-flex align-items-center gap-2">
-                  <i class="ri-eye-line"></i>
+                  <i className="ri-eye-line"></i>
                   <Link to="/create">Quiver Visionary</Link>
                 </button>
               </div>

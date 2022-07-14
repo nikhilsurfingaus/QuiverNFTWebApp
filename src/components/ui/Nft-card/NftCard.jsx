@@ -41,7 +41,7 @@ const NftCard = (props) => {
           <button
             className="bid__btn d-flex align-items-center gap-1"
           >
-            <i class="ri-shopping-bag-line"></i> Place Bid
+            <i className="ri-shopping-bag-line"></i> Place Bid
           </button>
 
           <span className="history__link">

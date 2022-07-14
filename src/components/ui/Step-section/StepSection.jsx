@@ -50,7 +50,7 @@ const StepSection = () => {
               <Tilt perspective={600} glareEnable={false} glareMaxOpacity={0} scale={1.05} gyroscope={false} tiltMaxAngleX={0} tiltMaxAngleY={7}>
                 <div className="single__step__item">
                   <span>
-                    <i class={item.icon}></i>
+                    <i className={item.icon}></i>
                   </span>
                   <div className="step__item__content">
                     <h5>

@@ -48,7 +48,7 @@ function SignIn() {
   
     return (
       <>
-        <button className="sign-in" onClick={signInWithGoogle}><i class="ri-google-fill"></i>Sign in with Google </button>
+        <button className="sign-in" onClick={signInWithGoogle}><i className="ri-google-fill"></i>Sign in with Google </button>
         <div className="in-info">
           <p >Please be kind, considerate and civil with all other quiver members</p>
         </div>
@@ -58,7 +58,7 @@ function SignIn() {
 
 function SignOut() {
     return auth.currentUser && (
-      <button className="sign-out" onClick={() => auth.signOut()}> <i class="ri-logout-box-line"></i> Sign Out</button>
+      <button className="sign-out" onClick={() => auth.signOut()}> <i className="ri-logout-box-line"></i> Sign Out</button>
     )
 }
 
@@ -66,7 +66,7 @@ function SignOut() {
 function ChatRoom() {
     const dummy = useRef();
     const messagesRef = firestore.collection('messages');
-    const query = messagesRef.orderBy('createdAt').limit(25);
+    const query = messagesRef.orderBy('createdAt').limit(200);
   
     const [messages] = useCollectionData(query, { idField: 'id' });
   
@@ -102,7 +102,7 @@ function ChatRoom() {
   
         <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="message quiver chat..." />
   
-        <button type="submit" disabled={!formValue}><i class="ri-send-plane-2-line"></i></button>
+        <button type="submit" disabled={!formValue}><i className="ri-send-plane-2-line"></i></button>
   
       </form>
     </>)

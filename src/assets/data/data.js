@@ -91,7 +91,7 @@ export const NFT__DATA = [{
         currentBid: 0.0444,
     },
     {
-        id: "09",
+        id: "10",
         title: "Pro Surfer Winning Surfboard #4",
         desc: "The 2012 ASP world champion Joel Parkinson winning Pixel Surfboard. In which he rode when he was on a tear at the 2011 Ripcurl Pro Bells Beach. Parko was dominant with his smooth silky style, mixed with power and throwing buckets of spray at the world renowned point break. With waves in the 6-8ft range on finals day Parko was unstoppable, defeating close friend and rival Mick Fanning in the final with a 18.53 heat total. ",
         imgUrl: Par,
@@ -99,7 +99,7 @@ export const NFT__DATA = [{
         currentBid: 0.0333,
     },
     {
-        id: "09",
+        id: "11",
         title: "Pro Surfer Winning Surfboard #3",
         desc: "Julian Wilson winning pixel surfboard from the 2018 Quicksilver Pro gold Coast. Julian came into the event with a shoulder injury picked up in a mountain bike incident close to the event window. Not being able to paddle out requiring jet ski assist. Julian was spurred on by the birth of his daughter winning the event with this board that included a near perfect 9.93 barrel in the final against Adrian Buchan. ",
         imgUrl: Jul,
