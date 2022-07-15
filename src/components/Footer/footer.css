@@ -120,6 +120,7 @@
         margin: auto;
         border-top: #0c264f solid 1.5px;
         padding-top: 20px;
+        margin-left: -4px !important;
     }
     .footer .mb-4 .logo {
         border-bottom: #0c264f solid 1.5px;

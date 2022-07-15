@@ -2,7 +2,6 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import "./Timeline.css";
-import { Link } from "react-router-dom";
 
 function Timeline() {
   return (
@@ -13,7 +12,7 @@ function Timeline() {
                 contentStyle={{ background: 'rgb(12, 38, 79)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(27, 153, 188)' }}
                 date="2022 - Present"
-                iconStyle={{ background: 'rgb(11, 74, 145)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(27, 153, 188)', color: '#fff' }}
                 icon={<i className="ico ri-plant-fill"/>}
             >
                 <h3 className="vertical-timeline-element-title">Quiver Project Concieved</h3>
@@ -21,6 +20,10 @@ function Timeline() {
                 <p>
                 Quiver project launches within the space of Crypto and NFT on the Ethereumn Blockchain
                 </p>
+                <button className=" create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-youtube-fill"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/WaveFlightSimulations">Launch Trailer</a>
+                </button>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -35,6 +38,10 @@ function Timeline() {
                 Own a peice of surfing history from men and women that have competed or shaped
                 the world of surfing
                 </p>
+                <button className=" create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-medium-fill"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://mintable.app/u/nikhilsurfingaus">Mintable</a>
+                </button>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -50,8 +57,8 @@ function Timeline() {
                 saftey of Ethereum Solidity Smart Contracts
                 </p>
                 <button className=" create__btn d-flex align-items-center gap-2">
-                  <i className="ri-eye-line"></i>
-                  <Link to="/create">Quiver Visionary</Link>
+                  <i className="but ri-github-fill"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/nikhilsurfingaus/ThesisProject">Github</a>
                 </button>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -67,6 +74,11 @@ function Timeline() {
                 QuiverCoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world. 
                 QuiverCoin is an open source, global payment network that is fully decentralized without any central authorities.
                 </p>
+                <button className=" create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-bit-coin-line"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.binance.com/en">Binance</a>
+                </button>
+
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
@@ -81,6 +93,10 @@ function Timeline() {
                 Quiver has partnered with TheOceanCleanUp to support and fund the continual
                 efforts of the largest ocean cleanup project to save our worlds oceans. 
                 </p>
+                <button className=" create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-haze-line"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://theoceancleanup.com/">Project Website</a>
+                </button>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
@@ -95,6 +111,10 @@ function Timeline() {
                 Microsoft has annouced that Quiver will be working with Xbox in its transition towards
                 integration of the Metaverse project and NFT architecture.
                 </p>
+                <button className=" create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-microsoft-fill"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.finder.com.au/microsoft-xbox-nft-guide">Article</a>
+                </button>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
@@ -110,6 +130,10 @@ function Timeline() {
                 data on-chain and runs computation off-chain, increasing Ethereum's transactions per second 
                 and decreasing transaction fees.
                 </p>
+                <button className=" create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-open-source-fill"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethereum-optimism/optimism">Development Thread</a>
+                </button>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
@@ -124,6 +148,10 @@ function Timeline() {
                 Quiver Air Industries partners with Airbus, Boeing and Lockheed Martin in overhauling current
                 avionic systems and programs towards a more secure and effecient blockchain based system.
                 </p>
+                <button className=" create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-flight-land-fill"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.panasonic.aero/blog-post/crypto-aviation-how-blockchain-could-transform-the-passenger-experience/">Learn More</a>
+                </button>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -140,12 +168,16 @@ function Timeline() {
                  London, Goa, Rio De Janeiro, Jeffreys Bay, Fiji, Tahiti and Bali. Quiver owners of NFT surfboards can then use these 
                  surfboards in the metaverse wavepool. 
                 </p>
+                <button className=" create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-mastercard-line"></i>
+                  <a target="_blank" rel="noopener noreferrer" href="https://about.facebook.com/">Meta Quiver Society</a>
+                </button>
             </VerticalTimelineElement>
 
 
 
             <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(11, 74, 145)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(27, 153, 188)', color: '#fff' }}
                 icon={<i className="ico ri-medal-2-fill"/>}
             />
         </VerticalTimeline>

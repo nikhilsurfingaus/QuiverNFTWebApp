@@ -2,9 +2,29 @@
     color: rgb(88, 138, 182);
 }
 
+.vertical-timeline-element--work:hover,
+.vertical-timeline-element--education:hover {
+    transition: all 0.3s ease-out;
+    transform: scale(1.01);
+}
+
+.Time {
+    margin-top: -50px;
+}
+
 .Time .ico {
     font-size: 2.4rem;
     margin-left: 11px;
+}
+
+.Time .but {
+    font-size: 1.4rem;
+}
+
+.Time .create__btn {
+    padding: 0px 13px !important;
+    font-size: 0.8rem;
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -12,5 +32,16 @@
         font-size: 1.7rem;
         margin-left: 6px;
         margin-top: -40px !important;
+    }
+    .Time .but {
+        font-size: 1.4rem;
+    }
+    .Time .create__btn {
+        padding: 0px 13px !important;
+        font-size: 0.8rem !important;
+        margin-top: 15px;
+    }
+    .Time .create__btn a {
+        font-size: 0.8rem !important;
     }
 }
