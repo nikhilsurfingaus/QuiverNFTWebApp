@@ -9,7 +9,7 @@ import NftDetails from "../pages/NftDetails";
 import Map from "../pages/Map";
 import Chat from "../pages/Chat";
 import Project from "../pages/Projects";
-import Trading from "../pages/About";
+import Trading from "../pages/Trading";
 
 const Routers = () => {
   return (

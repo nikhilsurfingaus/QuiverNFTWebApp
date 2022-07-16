@@ -1,0 +1,13 @@
+.trade-container {
+    width: 60%;
+    margin: auto;
+}
+
+.chartContainer {
+    height: 60vh !important;
+    border-radius: 10px;
+}
+
+.label {
+    font-size: 1.2rem;
+}
