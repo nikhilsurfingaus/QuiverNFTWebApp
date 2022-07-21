@@ -5,9 +5,28 @@
 
 .chartContainer {
     height: 60vh !important;
-    border-radius: 10px;
+}
+
+.tv-lightweight-charts {
+    border-radius: 15px !important;
 }
 
 .label {
     font-size: 1.2rem;
+}
+
+.trade-container .create__btn {
+    margin: auto;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .trade-container {
+        width: 90%;
+        margin: auto;
+    }
+    .trade-container .create__btn a,
+    .trade-container .create__btn i {
+        font-size: 1.1rem !important;
+    }
 }

@@ -4,7 +4,7 @@ import "./Trading-Chart.css";
 
 function Chart() {
   return (
-    <div className='trade-container'>
+    <div className='trade-container animate__animated animate__fadeInUp'>
       <h1 className='label' >QIVC/BUSD</h1>
        <TradeViewChart pair="ETHBUSD" 
                chartLayout={{
@@ -28,9 +28,9 @@ function Chart() {
               }}
               
        />
-      <button className=" create__btn d-flex align-items-center gap-2">
+      <button className="create__btn d-flex align-items-center gap-2">
         <i className="but ri-exchange-funds-fill"></i>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/WaveFlightSimulations">Trade QIVC</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.binance.com/en/trade/QUICK_BUSD">Trade QIVC</a>
       </button>
     </div>
 

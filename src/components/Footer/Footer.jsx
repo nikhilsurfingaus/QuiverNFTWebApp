@@ -81,7 +81,7 @@ const SOCIAL = [
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer animate__animated animate__fadeInUp">
       <Container>
         <Row className="rowie">
           <Col lg="3" md="6" sm="6" className="mb-4">
