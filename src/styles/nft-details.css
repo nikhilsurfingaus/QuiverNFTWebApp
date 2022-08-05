@@ -87,6 +87,10 @@
     margin-top: 100px !important;
 }
 
+.under {
+    margin-top: -20px;
+}
+
 @media only screen and (max-width: 992px) {
     .single__nft__content h2 {
         font-size: 1.1rem;

@@ -75,8 +75,9 @@ const NftDetails = () => {
           </Row>
         </Container>
       </section>
-
-      <LiveAuction />
+      <section  className="under animate__animated animate__slideInUp">
+        <LiveAuction />
+      </section>
     </>
   );
 };

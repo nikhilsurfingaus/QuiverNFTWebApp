@@ -1,5 +1,5 @@
-
 import CommonSection from "../components/ui/Common-section/CommonSection";
+import ProjectsSection from "../components/ui/Project-section/ProjectsSection";
 
 const Project = () => {
  
@@ -7,7 +7,7 @@ const Project = () => {
     <>
       <CommonSection title="Projects" />
       <section>
-      
+        <ProjectsSection />
       </section>
     </>
   );
