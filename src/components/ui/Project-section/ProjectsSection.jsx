@@ -1,5 +1,4 @@
 import React from 'react';
-import './ProjectsSection.css';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import SwiperCore, { Navigation } from 'swiper';
 import projectData from '../../../assets/data/projectdata';
@@ -42,6 +41,7 @@ const ProjectSectionStyle = styled.div`
       max-width: 96%;
       margin: 0 auto;
       margin-top: -2.5rem;
+      margin-bottom: -1.8rem;
       gap: 5rem;
       .projectItem-img {
         width: 100%;
@@ -76,7 +76,7 @@ function Projects() {
           {projectData.map((project, index) =>{
             return (
               <SwiperSlide key={project.id} >
-                <ProjectItem title={project.name} img={project.img} desc={project.desc} />
+                <ProjectItem title={project.name} img={project.img} desc={project.desc} link={project.link} />
               </SwiperSlide>  
             )
           })}

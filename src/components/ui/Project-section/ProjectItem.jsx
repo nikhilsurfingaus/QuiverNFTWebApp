@@ -47,6 +47,15 @@ const ProjectItemStyles = styled.div`
     margin-right: auto;
     display: block;
   }
+
+  .projectItem-info .create__btn i {
+    font-size: 1.4rem !important;
+  }
+
+  .projectItem-info .create__btn {
+    margin: auto;
+    display: block;
+  }
   @media only screen and (max-width: 768px) {
     .projectItem-img {
       height: 350px;
@@ -64,6 +73,9 @@ const ProjectItemStyles = styled.div`
       text-align:justify;
       text-align-last:justify;
     }
+    .projectItem-info .create__btn i {
+      font-size: 1.2rem !important;
+    }
   }
 `;
 
@@ -72,6 +84,7 @@ export default function ProjectItem( {
     img  = projectImg, 
     title = 'Project Name',
     desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    link = "https://www.google.com/"
 }) {
   return (
     <div>
@@ -82,6 +95,10 @@ export default function ProjectItem( {
         <div className="projectItem-info">
             <h3 className='projectItem-title'>{title}</h3>
             <p className='projectItem-desc'>{desc}</p>
+            <button className="create__btn d-flex align-items-center gap-2">
+                  <i className="but ri-information-line"></i>
+                  <a target="_blank" rel="noopener noreferrer" href={link}>Learn More</a>
+            </button>
         </div>
         </ProjectItemStyles>
     </div>
