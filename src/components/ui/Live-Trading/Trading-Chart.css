@@ -5,19 +5,48 @@
 
 .chartContainer {
     height: 60vh !important;
+    margin-top: -10px !important;
 }
 
 .tv-lightweight-charts {
-    border-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
 }
 
 .label {
+    font-size: 1rem;
+}
+
+.live-stats {
     font-size: 1.2rem;
 }
 
 .trade-container .create__btn {
     margin: auto;
     margin-top: 30px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 28px;
+    padding: 14px 14px 18px;
+    background: #042447;
+    border-radius: 5px;
+}
+
+.live-but {
+    font-size: 1rem !important;
+    color: rgb(68, 255, 47);
+    animation: blinker 2.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -28,5 +57,14 @@
     .trade-container .create__btn a,
     .trade-container .create__btn i {
         font-size: 1.1rem !important;
+    }
+    .label {
+        font-size: 0.7rem;
+    }
+    .live-stats {
+        font-size: 1rem;
+    }
+    .live-but {
+        font-size: 0.8rem !important;
     }
 }

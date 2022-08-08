@@ -72,7 +72,7 @@ function Projects() {
     <div className="container animate__animated animate__fadeInLeft">
       <div className="projects-all">
         <Swiper spaceBetween={30} slidesPerView={1} navigation 
-                style={{"--swiper-pagination-color": "#1b99bc", "--swiper-navigation-color": "#1b99bc",}}>
+                style={{"--swiper-pagination-color": "#fff", "--swiper-navigation-color": "#fff",}}>
           {projectData.map((project, index) =>{
             return (
               <SwiperSlide key={project.id} >
