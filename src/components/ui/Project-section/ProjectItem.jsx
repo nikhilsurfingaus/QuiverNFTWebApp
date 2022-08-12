@@ -56,6 +56,29 @@ const ProjectItemStyles = styled.div`
     margin: auto;
     display: block;
   }
+
+  @media only screen and (min-width: 1000px) and (max-width: 1600px){
+    .projectItem-img {
+      height: 350px;
+      img {
+        height: 350px;
+      }
+    }
+    .projectItem-desc {
+      font-size: 0.85rem;
+      margin-top: 0.8rem;
+    }
+    .projectItem-title {
+      font-size: 1.6rem;
+    }
+    .projectItem-info .create__btn i {
+      font-size: 0.9rem !important;
+    }
+    .projectItem-info .create__btn {
+      font-size: 0.9rem !important;
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     .projectItem-img {
       height: 350px;

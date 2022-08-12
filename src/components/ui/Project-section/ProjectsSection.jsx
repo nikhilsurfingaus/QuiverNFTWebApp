@@ -36,6 +36,11 @@ const ProjectSectionStyle = styled.div`
   .swiper-button-next::after {
     font-size: 2.5rem;
   }
+  @media only screen and (min-width: 1000px) and (max-width: 1600px){
+    .projects-all {
+      margin-top: -2rem;
+    }
+  }
   @media only screen and (max-width: 768px) {
     .projects-all {
       max-width: 96%;
@@ -63,6 +68,7 @@ const ProjectSectionStyle = styled.div`
       font-size: 1.5rem;
     }
   }
+  
 `;
 
 function Projects() {
