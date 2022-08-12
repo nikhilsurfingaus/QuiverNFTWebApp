@@ -85,6 +85,20 @@
     display: none;
 }
 
+.toaster-styles_errorToast__2In33 {
+    color: #FFFFFF;
+    background: #b01010 !important;
+}
+
+.toaster-styles_notificationToast__3nUda {
+    color: #FFFFFF;
+    background: #16a32b !important;
+}
+
+.toaster-styles_toasterPercentage__2AHXe {
+    background: #0b4a91 !important;
+}
+
 @media only screen and (max-width: 768px) {
     .nav__menu {
         position: fixed;

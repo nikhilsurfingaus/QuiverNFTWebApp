@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import "./header.css";
 import { Container } from "reactstrap";
 
@@ -6,6 +6,14 @@ import { NavLink, Link } from "react-router-dom";
 
 import logo from "../../assets/images/QuiverCoin.png";
 
+import {ethers} from 'ethers'
+
+import {
+  IToasterTypes,
+  NotificationToast,
+  ToastEvent,
+  toastEventManager
+} from "dyzz-toaster";
 
 const NAV__LINKS = [
   {
@@ -58,6 +66,58 @@ const Header = () => {
 
   const toggleMenu = () => menuRef.current.classList.toggle("active__menu");
 
+
+  //Metamask Shenanigans
+  const [connText, setConnText] = useState("Connect Wallet")
+	const [userBalance, setUserBalance] = useState(null);
+  const [ethText, setEthText] = useState("")
+
+
+  const connectWallet = () => {
+    if (window.ethereum && window.ethereum.isMetaMask) {
+			// console.log('MetaMask Here!');
+
+			window.ethereum.request({ method: 'eth_requestAccounts'})
+			.then((result) => {
+				// console.log("Wallet Connected")
+        getAccountBalance(result[0]);
+			})
+			.catch(() => {
+				// console.log("Request Rejected");
+        fail()
+			});
+
+		} else {
+			// console.log('Need to install MetaMask');
+      fail()
+		}
+  }
+
+	const getAccountBalance = (account) => {
+		window.ethereum.request({method: 'eth_getBalance', params: [account, 'latest']})
+		.then(balance => {
+			setUserBalance(ethers.utils.formatEther(balance));
+      setConnText("Metamask Wallet Funds: ")
+      setEthText(" Eth")
+      success()
+		})
+		.catch(() => {
+      // console.log("Request Rejected");
+      fail()
+		});
+	};
+
+
+  const success = () => {
+    toastEventManager.emit(ToastEvent.CREATE,
+      {timeOutDelay: 7000, indicateLine: true, text: 'SUCCESS Metamask Wallet Connected', type: IToasterTypes.NOTIFICATION})
+  };
+
+  const fail = () => {
+    toastEventManager.emit(ToastEvent.CREATE,
+      {timeOutDelay: 7000, indicateLine: true, text: 'ERROR Metamask Not Connected', type: IToasterTypes.ERROR})
+  };
+
   return (
     <header className="header" ref={headerRef}>
       <Container>
@@ -95,7 +155,7 @@ const Header = () => {
               <span>
                 <i className="ri-wallet-line"></i>
               </span>
-              <Link to="/wallet">Connect Wallet</Link>
+              <Link to="#" onClick={connectWallet}>{connText} {userBalance} {ethText}</Link>
             </button>
 
             <span className="mobile__menu">
@@ -104,6 +164,8 @@ const Header = () => {
           </div>
         </div>
       </Container>
+      <NotificationToast />
+
     </header>
   );
 };
