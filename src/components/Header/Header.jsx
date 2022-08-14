@@ -155,7 +155,7 @@ const Header = () => {
               <span>
                 <i className="ri-wallet-line"></i>
               </span>
-              <Link to="#" onClick={connectWallet}>{connText} {userBalance} {ethText}</Link>
+              <Link to="#" onClick={connectWallet} >{connText} {userBalance} {ethText}</Link>
             </button>
 
             <span className="mobile__menu">

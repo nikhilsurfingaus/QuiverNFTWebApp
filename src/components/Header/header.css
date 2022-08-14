@@ -75,8 +75,16 @@
     color: #fff;
 }
 
-.nav__right .btn a:hover {
-    color: #fff;
+.nav__right .btn:hover {
+    background-color: #fff;
+}
+
+.nav__right .btn:hover i {
+    color: black !important;
+}
+
+.nav__right .btn:hover a {
+    color: black !important;
 }
 
 .mobile__menu {
