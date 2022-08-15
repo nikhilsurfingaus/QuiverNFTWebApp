@@ -9,6 +9,9 @@ import Fan from "../images/Fan.png";
 import Jul from "../images/Jul.png";
 import Par from "../images/Par.png";
 import Stp from "../images/Stp.png";
+import OCAR from "../images/OCAR.png";
+import TAJ from "../images/TAJ.png";
+import JJF from "../images/JJF.png";
 
 export const NFT__DATA = [{
         id: "01",
@@ -17,6 +20,7 @@ export const NFT__DATA = [{
         imgUrl: Gab,
         creator: "Gabriel Medina",
         currentBid: 0.0444,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-World-Title-Surfboard-1-Gabriel-Medina-2021-Rip-Curl-WSL-Finals/9Rb9hTjA68CyoOU",
     },
 
     {
@@ -26,6 +30,7 @@ export const NFT__DATA = [{
         imgUrl: And,
         creator: "Andy Iron",
         currentBid: 0.0444,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Legend-Surfboard-1-Andy-Irons-Rising-Sun-Tirbute-Surfboard/detby5ZxHp44sa5",
     },
 
     {
@@ -35,6 +40,7 @@ export const NFT__DATA = [{
         imgUrl: Job,
         creator: "Jamie O'Brien",
         currentBid: 0.0444,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Legend-Surfboard-3-Jamie-OBrien-WHO-IS-JOB-Pipeline-Surfboard/gliRNR9tCIZff5V",
     },
 
     {
@@ -44,6 +50,7 @@ export const NFT__DATA = [{
         imgUrl: Ris,
         creator: "Carissa Moore",
         currentBid: 0.0444,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-World-Title-Surfboard-4-Carissa-Moore-2021-Rip-Curl-WSL-Finals-Series/nHTjkRAyreU3IIK",
     },
 
     {
@@ -53,6 +60,7 @@ export const NFT__DATA = [{
         imgUrl: Jor,
         creator: "Jordy Smith",
         currentBid: 0.0333,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-5-Jordy-Smith-2016-Hurley-Pro-Trestles/TEUpCohXR-v40tW",
     },
 
     {
@@ -62,6 +70,7 @@ export const NFT__DATA = [{
         imgUrl: Ita,
         creator: "Italo Ferreira",
         currentBid: 0.0333,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-2-Italo-Ferreira-2018-Corona-Bali-Protected-Pro/gXWjMO7m1JsHewu",
     },
 
     {
@@ -71,6 +80,7 @@ export const NFT__DATA = [{
         imgUrl: Lan,
         creator: "Alana Blanchard",
         currentBid: 0.0444,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Legend-Surfboard-2-Alana-Blanchard-US-Open-Of-Surfing-Surfboard/hp20q_FCDDCU2Uq",
     },
 
     {
@@ -80,6 +90,7 @@ export const NFT__DATA = [{
         imgUrl: Fan,
         creator: "Mick Fanning",
         currentBid: 0.0444,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-World-Title-Surfboard-2-Mick-Fanning-2007-Hang-Loose-Santa-Catarina-Pro/vhrOaAqMHkhFTUp",
     },
 
     {
@@ -89,6 +100,7 @@ export const NFT__DATA = [{
         imgUrl: Stp,
         creator: "Stephanie Gilmore",
         currentBid: 0.0444,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-World-Title-Surfboard-3-Stephanie-Gilmore-2018-Beachwaver-Maui-Pro/GlxNmpY8U0scK2X",
     },
     {
         id: "10",
@@ -97,6 +109,7 @@ export const NFT__DATA = [{
         imgUrl: Par,
         creator: "Joel Parkinson",
         currentBid: 0.0333,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-4-Joel-Parkinson-2011-Ripcurl-Pro-Bells-Beach/Reyy_mebpm1q4f-",
     },
     {
         id: "11",
@@ -105,5 +118,33 @@ export const NFT__DATA = [{
         imgUrl: Jul,
         creator: "Julian Wilson",
         currentBid: 0.0333,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-3-Julian-Wilson-2018-Quicksilver-Pro-gold-Coast/aWc9uBklp4MQSVA",
+    },
+    {
+        id: "12",
+        title: "Pro Surfer Legend Surfboard #4",
+        desc: " Otis Carey is an An Aboriginal artist and professional surfer who grew up on the NSW Mid North Coast near Coffs Harbour. Otis rode this board at the 2017 Australian Indigenous Surfing Titles Bells Beach, and going one better by winning the event. His Aboriginal Art focuses on the  concept of connection to country, as well as drawing inspiration in the ocean. Australia leading advocates for Indigenous people, it all comes back, he laughs and growing up in a big Aboriginal family where everyone helps each other. ",
+        imgUrl: OCAR,
+        creator: "Otis Carey",
+        currentBid: 0.0444,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Legend-Surfboard-4-Otis-Carey-Aboriginal-Artwork-Surfboard/d7NMH5ZfAxEPufV",
+    },
+    {
+        id: "13",
+        title: "Pro Surfer Winning Surfboard #6",
+        desc: "The legendary Aussie surfer Taj Burrow road this pixel surfboard at the 2012 Quicksilver Pro Gold Coast. In conditions at Snapper Rocks that included crumbly overhead waves Taj's power, flow and acing critical sections. Taj muscled his way past big names on final day including Ace Buchan and Jordy Smith. He drew upon the local Aussie support at snapper to overcome the high flying Brazilian  Adriano De Souza in the final with a 15.86 heat total to De Souza's 15.60. ",
+        imgUrl: TAJ,
+        creator: "Taj Burrow",
+        currentBid: 0.0333,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-6-Taj-Burrow-2012-Quicksilver-Pro-Gold-Coast/SXsL10XwDIlAJYh",
+    },
+    {
+        id: "14",
+        title: "Pro Surfer Winning Surfboard #1",
+        desc: "John John Florence winning pixel surfboard from the 2012 Billabong Pro Rio. This board is special as it was the 2 time surfing world champions first win on the ASP world tour. JJF took down a high flying Josh Kerr in the semi finals, before overcoming eventual 2012 world champion Joel Parkinson in the final with a huge backhand air reverse.    ",
+        imgUrl: JJF,
+        creator: "John John Florence",
+        currentBid: 0.0333,
+        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-1-John-John-Florence-2012-Billabong-Pro-Rio/Iw0A56LaXGg1fuX",
     },
 ];

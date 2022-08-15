@@ -8,7 +8,6 @@ import LiveAuction from "../components/ui/Live-auction/LiveAuction";
 
 import "../styles/nft-details.css";
 
-import { Link } from "react-router-dom";
 
 const NftDetails = () => {
   const { id } = useParams();
@@ -66,10 +65,11 @@ const NftDetails = () => {
                 </div>
 
                 <p className="my-4">{singleNft.desc}</p>
-                <button className="singleNft-btn d-flex align-items-center gap-2 w-100">
-                  <i className="ri-shopping-bag-line"></i>
-                  <Link to="/wallet">Place a Bid</Link>
-                </button>
+                <a target="_blank" rel="noopener noreferrer" href={singleNft.link} className="cardLink">
+                  <button className="singleNft-btn d-flex align-items-center gap-2 w-100">
+                    <i className="ri-shopping-bag-line"></i>Place a Bid
+                  </button>
+                </a>
               </div>
             </Col>
           </Row>

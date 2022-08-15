@@ -83,6 +83,10 @@
     color: #010004;
 }
 
+.singleNft-btn:hover {
+    color: #010004;
+}
+
 .detail {
     margin-top: 100px !important;
 }

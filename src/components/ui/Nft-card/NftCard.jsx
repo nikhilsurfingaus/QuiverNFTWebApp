@@ -7,7 +7,7 @@ import "./nft-card.css";
 
 
 const NftCard = (props) => {
-  const { title, id, currentBid, imgUrl, creator } = props.item;
+  const { title, id, currentBid, imgUrl, creator, link } = props.item;
 
 
   return (
@@ -38,11 +38,12 @@ const NftCard = (props) => {
         </div>
 
         <div className=" mt-3 d-flex align-items-center justify-content-between">
-          <button
-            className="bid__btn d-flex align-items-center gap-1"
-          >
-            <i className="ri-shopping-bag-line"></i> Place Bid
-          </button>
+          <a target="_blank" rel="noopener noreferrer" href={link} className="cardLink">
+            <button
+              className="bid__btn d-flex align-items-center gap-1">
+                <i className="ri-shopping-bag-line"></i> Place Bid
+            </button>
+          </a>
 
           <span className="history__link">
               <Link to={`/market/${id}`}>
