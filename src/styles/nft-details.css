@@ -87,6 +87,11 @@
     color: #010004;
 }
 
+.share:hover i {
+    color: #010004;
+    background: #fff;
+}
+
 .detail {
     margin-top: 100px !important;
 }

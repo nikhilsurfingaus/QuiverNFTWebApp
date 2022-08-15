@@ -6,9 +6,12 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import "remixicon/fonts/remixicon.css";
 
+import ScrollToTop from '../src/pages/Top'
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+      <ScrollToTop />
       <App />
     </Router>
   </React.StrictMode>,

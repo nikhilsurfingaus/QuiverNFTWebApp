@@ -9,10 +9,34 @@ import LiveAuction from "../components/ui/Live-auction/LiveAuction";
 import "../styles/nft-details.css";
 
 
+import {
+  IToasterTypes,
+  NotificationToast,
+  ToastEvent,
+  toastEventManager
+} from "dyzz-toaster";
+
+
 const NftDetails = () => {
   const { id } = useParams();
 
   const singleNft = NFT__DATA.find((item) => item.id === id);
+
+
+  async function copyToClip() {
+      try {
+      await navigator.clipboard.writeText(window.location.href);
+      success()
+      } catch(err) {
+        console.log(err)
+      }
+
+  }
+
+  const success = () => {
+    toastEventManager.emit(ToastEvent.CREATE,
+      {timeOutDelay: 7000, indicateLine: true, text: 'NFT Link Copied', type: IToasterTypes.NOTIFICATION})
+  };
 
   return (
     <>
@@ -54,7 +78,7 @@ const NftDetails = () => {
                   </div>
 
                   <div className=" d-flex align-items-center gap-2 single__nft-more">
-                    <span>
+                    <span className="share" onClick={copyToClip}>
                       <i className="ri-send-plane-line"></i>
                     </span>
                     <span>
@@ -78,6 +102,7 @@ const NftDetails = () => {
       <section  className="under animate__animated animate__slideInUp">
         <LiveAuction />
       </section>
+      <NotificationToast />
     </>
   );
 };
