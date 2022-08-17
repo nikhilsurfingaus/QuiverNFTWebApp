@@ -13,31 +13,54 @@ import "../styles/market.css";
 const Market = () => {
   const [data, setData] = useState(NFT__DATA);
 
-  const handleCategory = () => {};
+  const handleCategory = (e) => {
+    const filterValue = e.target.value;
+
+    if (filterValue === "Event") {
+      const filterData = NFT__DATA.filter((item) => item.cat === "EW");
+      setData(filterData);
+    }
+
+    if (filterValue === "Champ") {
+      const filterData = NFT__DATA.filter((item) => item.cat === "WT");
+      setData(filterData);
+    }
+
+    if (filterValue === "Ledg") {
+      const filterData = NFT__DATA.filter((item) => item.cat === "LG");
+      setData(filterData);
+    }
 
 
-  // ====== SORTING DATA BY HIGH, MID, LOW RATE =========
+    if (filterValue === "allCat") {
+      const filterData = NFT__DATA.filter(
+        (item) => item.currentBid >= 0 );
+
+      setData(filterData);
+    }
+  };
+
+
+  // ====== SORTING DATA BY EPIC/RARE DROP =========
   const handleSort = (e) => {
     const filterValue = e.target.value;
 
     if (filterValue === "high") {
-      const filterData = NFT__DATA.filter((item) => item.currentBid >= 6);
+      const filterData = NFT__DATA.filter((item) => item.currentBid >= 0.0334);
 
       setData(filterData);
     }
 
     if (filterValue === "mid") {
       const filterData = NFT__DATA.filter(
-        (item) => item.currentBid >= 5.5 && item.currentBid < 6
+        (item) => item.currentBid >= 0 && item.currentBid < 0.0334
       );
 
       setData(filterData);
     }
-
-    if (filterValue === "low") {
+    if (filterValue === "all") {
       const filterData = NFT__DATA.filter(
-        (item) => item.currentBid >= 4.89 && item.currentBid < 5.5
-      );
+        (item) => item.currentBid >= 0 );
 
       setData(filterData);
     }
@@ -55,10 +78,10 @@ const Market = () => {
                 <div className="filter__left d-flex align-items-center gap-5">
                   <div className="all__category__filter">
                     <select onChange={handleCategory}>
-                      <option>All Categories</option>
-                      <option value="art">Event Winner</option>
-                      <option value="music">World Champion</option>
-                      <option value="music">Legend</option>
+                      <option value="allCat" >All Categories</option>
+                      <option value="Event">Event Winner</option>
+                      <option value="Champ">World Title</option>
+                      <option value="Ledg">Legend</option>
                     </select>
                   </div>
 
@@ -66,10 +89,9 @@ const Market = () => {
 
                 <div className="filter__right">
                   <select onChange={handleSort}>
-                    <option>Sort By</option>
-                    <option value="high">High Rate</option>
-                    <option value="mid">Mid Rate</option>
-                    <option value="low">Low Rate</option>
+                    <option value="all" >Sort By</option>
+                    <option value="high">Epic Boards</option>
+                    <option value="mid">Rare Boards</option>
                   </select>
                 </div>
               </div>
