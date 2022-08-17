@@ -7,6 +7,7 @@ import 'firebase/compat/auth';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
+import { uid as gen } from 'uid';
 
 firebase.initializeApp({
   apiKey: "AIzaSyBoucZPsXLY4aefJV7kSmlATJEurH8H8z8",
@@ -82,6 +83,7 @@ function ChatRoom() {
         text: formValue,
         createdAt: firebase.firestore.FieldValue.serverTimestamp(),
         uid,
+        key:gen(),
         photoURL
       })
   
@@ -92,7 +94,7 @@ function ChatRoom() {
     return (<>
       <main>
   
-        {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
+        {messages && messages.map(msg => <ChatMessage key={msg.key} message={msg} />)}
   
         <div ref={dummy}></div>
   
@@ -115,7 +117,7 @@ function ChatMessage(props) {
   
     return (<>
       <div className={`message ${messageClass}`}>
-        <img src={photoURL || 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'} alt="profile" />
+        <img src={photoURL || 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'} alt="profile" referrerPolicy="no-referrer" />
         <p>{text}</p>
       </div>
     </>)
