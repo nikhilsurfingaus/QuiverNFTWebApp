@@ -21,6 +21,21 @@ improved usability.
 for Quiver Coin (QIVC)
 
 ## Description 
+Quiver calls all ocean lovers and wave chargers to own pieces of surfing history with NFT surfboards ridden by current and past legends of proffessional surfing. Quiver also aims to contribute towards the security of Ethereum Smart Contarcts with numerous projects that need your support.
+
+Our website offers the following features:
+
+- NFT Market Place
+
+- Interactive Roadmap
+
+- Community Live Chat
+
+- Projects Showcase 
+
+- Live Trading Chart & Metrics
+
+- Desktop/Mobile Compatibility
 
 ## Trailer 
 
