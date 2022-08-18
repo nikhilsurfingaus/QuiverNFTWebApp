@@ -54,4 +54,48 @@ Our website offers the following features:
 
 ## Libraries
 
+        "@coreui/icons-react": "^2.0.1",
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/react-fontawesome": "^0.1.18",
+        "@h3ar7b3a7/spin-anything": "^0.0.22",
+        "@mui/material": "^5.8.6",
+        "@testing-library/jest-dom": "^5.15.0",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "@tudorbng/spinning-coin-effect": "^1.0.2",
+        "@types/uuid": "^8.3.4",
+        "animate.css": "^4.1.1",
+        "axios": "^0.27.2",
+        "bootstrap": "^5.1.3",
+        "document-register-element": "^1.14.10",
+        "dyzz-toaster": "^1.2.0",
+        "ethers": "^5.6.9",
+        "fancy-canvas": "^2.0.2",
+        "firebase": "^9.8.4",
+        "lightweight-charts": "^3.8.0",
+        "mn-image": "^0.0.2",
+        "react": "^17.0.2",
+        "react-crypto-chart": "^0.0.6",
+        "react-dom": "^17.0.2",
+        "react-firebase-hooks": "^5.0.3",
+        "react-icons": "^4.4.0",
+        "react-parallax-hover": "^2.0.2",
+        "react-parallax-tilt": "^1.7.43",
+        "react-router-dom": "^6.2.1",
+        "react-scripts": "4.0.3",
+        "react-vertical-timeline-component": "^3.5.2",
+        "reactstrap": "^9.1.1",
+        "remixicon": "^2.5.0",
+        "styled-components": "^5.3.5",
+        "swiper": "^8.3.2",
+        "uid": "^2.0.0",
+        "uuid": "^8.3.2",
+        "uuidv4": "^6.2.13",
+        "web-vitals": "^1.1.2"
+
 ## Copyright
+
+**Copyrights 2022, Developed by Nikhil Naik. @WaveFlightSimulation All Rights Reserved.**
