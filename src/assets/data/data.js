@@ -12,6 +12,10 @@ import Stp from "../images/Stp.png";
 import OCAR from "../images/OCAR.png";
 import TAJ from "../images/TAJ.png";
 import JJF from "../images/JJF.png";
+import GRIF from "../images/GRIF.png";
+import LAY from "../images/LAY.png";
+import KEL from "../images/KEL.png";
+import TOL from "../images/TOL.png";
 
 export const NFT__DATA = [{
         id: "01",
@@ -20,8 +24,8 @@ export const NFT__DATA = [{
         imgUrl: Gab,
         creator: "Gabriel Medina",
         cat: "WT",
-        currentBid: 0.0444,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-World-Title-Surfboard-1-Gabriel-Medina-2021-Rip-Curl-WSL-Finals/9Rb9hTjA68CyoOU",
+        currentBid: 0.0888,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790720672745652227/",
     },
 
     {
@@ -31,19 +35,19 @@ export const NFT__DATA = [{
         imgUrl: And,
         creator: "Andy Iron",
         cat: "LG",
-        currentBid: 0.0444,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Legend-Surfboard-1-Andy-Irons-Rising-Sun-Tirbute-Surfboard/detby5ZxHp44sa5",
+        currentBid: 0.1,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790725070792163330/",
     },
 
     {
         id: "03",
         title: "Pro Surfer Legend Surfboard #3",
-        desc: "Jamie O'Brien is a free-surfer, meaning he’s not chasing contest wins or world titles. He's out travelling the world and filming stunning video footage of surfing in epic locales that's capturing an audience worldwide. The American grew up in front of Pipeline, on the surf mecca of Oahu's North Shore. He started competing in local surf contests when he was about six years old and carried on into his early 20s. In 2004, O'Brien had a huge season: He got a wildcard entry into Pipeline Masters and won, becoming one of the event's youngest champions at age 21. When Red Bull came to O'Brien in 2012 and said they were interested in a web video series, he decided to turn Who is JOB? into an ongoing saga, which quickly became one of the most popular shows on Red Bull TV. ",
+        desc: "Jamie O'Brien is a free-surfer, meaning he is not chasing contest wins or world titles. He's out travelling the world and filming stunning video footage of surfing in epic locales that's capturing an audience worldwide. The American grew up in front of Pipeline, on the surf mecca of Oahu's North Shore. He started competing in local surf contests when he was about six years old and carried on into his early 20s. In 2004, O'Brien had a huge season: He got a wildcard entry into Pipeline Masters and won, becoming one of the event's youngest champions at age 21. When Red Bull came to O'Brien in 2012 and said they were interested in a web video series, he decided to turn Who is JOB? into an ongoing saga, which quickly became one of the most popular shows on Red Bull TV. ",
         imgUrl: Job,
         creator: "Jamie O'Brien",
         cat: "LG",
-        currentBid: 0.0444,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Legend-Surfboard-3-Jamie-OBrien-WHO-IS-JOB-Pipeline-Surfboard/gliRNR9tCIZff5V",
+        currentBid: 0.1,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790729468838674434/",
     },
 
     {
@@ -53,8 +57,8 @@ export const NFT__DATA = [{
         imgUrl: Ris,
         creator: "Carissa Moore",
         cat: "WT",
-        currentBid: 0.0444,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-World-Title-Surfboard-4-Carissa-Moore-2021-Rip-Curl-WSL-Finals-Series/nHTjkRAyreU3IIK",
+        currentBid: 0.0888,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790728369327046659/",
     },
 
     {
@@ -64,8 +68,8 @@ export const NFT__DATA = [{
         imgUrl: Jor,
         creator: "Jordy Smith",
         cat: "EW",
-        currentBid: 0.0333,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-5-Jordy-Smith-2016-Hurley-Pro-Trestles/TEUpCohXR-v40tW",
+        currentBid: 0.0666,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790721772257280005/",
     },
 
     {
@@ -75,8 +79,8 @@ export const NFT__DATA = [{
         imgUrl: Ita,
         creator: "Italo Ferreira",
         cat: "EW",
-        currentBid: 0.0333,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-2-Italo-Ferreira-2018-Corona-Bali-Protected-Pro/gXWjMO7m1JsHewu",
+        currentBid: 0.0666,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790717374210768901/",
     },
 
     {
@@ -86,8 +90,8 @@ export const NFT__DATA = [{
         imgUrl: Lan,
         creator: "Alana Blanchard",
         cat: "LG",
-        currentBid: 0.0444,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Legend-Surfboard-2-Alana-Blanchard-US-Open-Of-Surfing-Surfboard/hp20q_FCDDCU2Uq",
+        currentBid: 0.1,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/452606665084024798518358548724200799408432402863291084983007907272698154188",
     },
 
     {
@@ -97,8 +101,8 @@ export const NFT__DATA = [{
         imgUrl: Fan,
         creator: "Mick Fanning",
         cat: "WT",
-        currentBid: 0.0444,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-World-Title-Surfboard-2-Mick-Fanning-2007-Hang-Loose-Santa-Catarina-Pro/vhrOaAqMHkhFTUp",
+        currentBid: 0.0888,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790722871768907779/",
     },
 
     {
@@ -108,8 +112,8 @@ export const NFT__DATA = [{
         imgUrl: Stp,
         creator: "Stephanie Gilmore",
         cat: "WT",
-        currentBid: 0.0444,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-World-Title-Surfboard-3-Stephanie-Gilmore-2018-Beachwaver-Maui-Pro/GlxNmpY8U0scK2X",
+        currentBid: 0.0888,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790726170303791107/",
     },
     {
         id: "10",
@@ -118,8 +122,8 @@ export const NFT__DATA = [{
         imgUrl: Par,
         creator: "Joel Parkinson",
         cat: "EW",
-        currentBid: 0.0333,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-4-Joel-Parkinson-2011-Ripcurl-Pro-Bells-Beach/Reyy_mebpm1q4f-",
+        currentBid: 0.0666,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790719573234024453/",
     },
     {
         id: "11",
@@ -128,8 +132,8 @@ export const NFT__DATA = [{
         imgUrl: Jul,
         creator: "Julian Wilson",
         cat: "EW",
-        currentBid: 0.0333,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-3-Julian-Wilson-2018-Quicksilver-Pro-gold-Coast/aWc9uBklp4MQSVA",
+        currentBid: 0.0666,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790718473722396677/",
     },
     {
         id: "12",
@@ -138,8 +142,8 @@ export const NFT__DATA = [{
         imgUrl: OCAR,
         creator: "Otis Carey",
         cat: "LG",
-        currentBid: 0.0444,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Legend-Surfboard-4-Otis-Carey-Aboriginal-Artwork-Surfboard/d7NMH5ZfAxEPufV",
+        currentBid: 0.1,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790731667861929986/",
     },
     {
         id: "13",
@@ -148,8 +152,8 @@ export const NFT__DATA = [{
         imgUrl: TAJ,
         creator: "Taj Burrow",
         cat: "EW",
-        currentBid: 0.0333,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-6-Taj-Burrow-2012-Quicksilver-Pro-Gold-Coast/SXsL10XwDIlAJYh",
+        currentBid: 0.0666,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790723971280535557/",
     },
     {
         id: "14",
@@ -158,7 +162,47 @@ export const NFT__DATA = [{
         imgUrl: JJF,
         creator: "John John Florence",
         cat: "EW",
-        currentBid: 0.0333,
-        link: "https://mintable.app/COLLECTIBLES/item/Pro-Surfer-Winning-Surfboard-1-John-John-Florence-2012-Billabong-Pro-Rio/Iw0A56LaXGg1fuX",
+        currentBid: 0.0666,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790716274699141125/",
+    },
+    {
+        id: "15",
+        title: "Pro Surfer Winning Surfboard #7",
+        desc: "Griffin Colapinto took out his 2nd CT victory at the Surf City El Salvador Pro, after a tough draw squaring up with a refreshed and hungry Gabriel Medina eventually world number one Filipe Toledo. Against Medina, Colapinto fought back with a buzzer beater wave in the dying seconds. With eight minutes to go against Toledo in the final the two found themselves in a dead tie. Colapinto with three minutes to go took off on a tiny wave and turned it into something huge, an 8.00 for the lead.",
+        imgUrl: GRIF,
+        creator: "Griffin Colapinto",
+        cat: "EW",
+        currentBid: 0.0666,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790732767373557765/",
+    },
+    {
+        id: "16",
+        title: "Pro Surfer World Title Surfboard #5",
+        desc: "In 2003, Layne Beachley won her sixth consecutive world professional surfing championship, a stunning achievement unmatched by any other person in more than 40 years of pro surfing history. This is one of the boards that helped her accomplish the feat that year. The 31-year-old clinched the 2003 title when she won through to the final of the season ending tour event in Hawaii. Outside of the water Layne was also a pioneering female big wave surfer and served as a board member of pro surfing throughout her competitive career.",
+        imgUrl: LAY,
+        creator: "Layne Beachley",
+        cat: "WT",
+        currentBid: 0.0888,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790733866885185539/",
+    },
+    {
+        id: "17",
+        title: "Pro Surfer Legend Surfboard #5",
+        desc: "Kelly Slaters impact on surfing mirrors the 90s Internet revolution. Slater got his feet wet on the bunny slopes of Cocoa Beach, a sleepy Central Florida town. In his first full year on the tour, at age 21, Kelly Slater solidified the hype by claiming the world title — the youngest ever to do so. This Surfboard captures this youthful exuberance, on show during the 2001 Quicksilver Crossings boat trip, named Beyond The Boundaries. Slater in the late 90s went on a five-year run of complete domination of the world tour, earning the champion crown every year between 1994 and 1998.",
+        imgUrl: KEL,
+        creator: "Kelly Slater",
+        cat: "LG",
+        currentBid: 0.1,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790734966396813314/",
+    },
+    {
+        id: "18",
+        title: "Pro Surfer Winning Surfboard #8",
+        desc: "The Brazilian wonder boy Filipe Toledo defeated Wade Carmichael in the final at Barrinha’s wedging rights. The win was Filipe's sixth Championship Tour (CT) event victory of his career. In the final Toledo put the Australian in a combination situation with a near-perfect 9.93 point wave and then backed it up with a 7.17. He was the most in-form surfer of the entire event. Toledo celebrated his win surrounded by family, friends, and fans. With the win being more emotional, as 2 days prior his wife Ananda, gave birth to their second child. The win propelled Filipe from 9th to 2nd in the standings, in a year where he eventually finished 3rd.",
+        imgUrl: TOL,
+        creator: "Filipe Toledo",
+        cat: "EW",
+        currentBid: 0.0666,
+        link: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45260666508402479851835854872420079940843240286329108498300790736065908441093/",
     },
 ];
