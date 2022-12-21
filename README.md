@@ -38,7 +38,7 @@ Our website offers the following features:
 - Desktop/Mobile Compatibility
 
 ## Video Demo  
-[![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=gZm_n5MFZWQ)](https://youtu.be/gZm_n5MFZWQ "QUIVER PROJECT WEBSITE LAUNCH TRAILER")
+[![Everything Is AWESOME](http://img.youtube.com/vi/gZm_n5MFZWQ/hqdefault.jpg)](https://youtu.be/gZm_n5MFZWQ "QUIVER PROJECT WEBSITE LAUNCH TRAILER")
 
 ## Screenshots 
 <p float="left">
