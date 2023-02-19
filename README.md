@@ -1,6 +1,6 @@
 # Quiver Crypto Project <img src="https://github.com/nikhilsurfingaus/QuiverNFTWebApp/blob/master/public/favicon.ico" alt="drawing" width="100"/> 
 
-## Site Link: [https://quivercrypto.com](https://quivercrypto.netlify.app)
+## Link: [https://quivercrypto.com](https://quivercrypto.netlify.app)
 
 ## Website Powered By 
 
