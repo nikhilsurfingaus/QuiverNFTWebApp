@@ -2,8 +2,7 @@
 
 ## Site Link: [https://quivercrypto.com](https://quivercrypto.netlify.app)
 
-## Website Powered By 
-
+## Website Powered By: 
 <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="drawing" width="100"/> <img 
 src="https://firebase.google.com/images/brand-guidelines/logo-vertical.png" alt="drawing" width="100"/> 
 <img src="https://yt3.ggpht.com/ytc/AMLnZu_bZz66jLBsycj-vvHpGDFsqqC2EwCByH4KWi0J=s900-c-k-c0x00ffffff-no-rj" alt="drawing" width="100"/>
